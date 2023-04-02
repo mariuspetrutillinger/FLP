@@ -45,3 +45,50 @@ d) Putem avea efecte laterale în lambda calcul fără tipuri.
 
 -------------
 
+Care din lambda termenii de mai jos nu este închis?
+
+λxyz.xxy
+
+λxy.xxy
+
+λx.xxy
+
+λx.xx
+
+Lambda termenul care nu este închis este λx.xxy. Acesta conține variabila liberă "y", care nu este legată de nicio abstracție λ din termenul respectiv. Un lambda termen este considerat închis atunci când toate variabilele sale sunt legate de cel puțin o abstracție λ în cadrul acelui termen.
+
+-----------
+
+Care sunt variabilele libere din termenul λx.xxy?
+
+termenul nu are variabile libere
+
+x
+
+y
+
+x și y
+
+Îmi cer scuze, am făcut o greșeală. Termenul λx.xxy are o singură variabilă liberă, iar aceasta este "y". Variabila "x" apare legată de prima abstracție λ, astfel încât nu este o variabilă liberă.
+-----------
+
+Care din următoarele afirmații este adevărată?
+
+un combinator este orice lambda termen
+
+un combinator este un lambda termen fără variabile libere (închis)
+
+un combinator este un lambda termen cu variabile libere
+
+un combinator este un lambda termen care are și variabile libere, și variabile legate
+
+Afirmația adevărată este "un combinator este un lambda termen fără variabile libere (închis)".
+
+Un combinator este un lambda termen care poate fi folosit pentru a combina (compușa) funcții, și care nu are nicio variabilă liberă (adică toate variabilele din termenul lambda sunt legate de lambda abstractor). În alte cuvinte, combinatorii sunt funcții lambda care nu depind de nicio variabilă externă și pot fi aplicați direct fără să fie nevoie să li se ofere argumente suplimentare.
+
+De exemplu, I combinatorul (identitate) este definit ca: λx.x. Acesta este un combinator, deoarece nu are nicio variabilă liberă și poate fi aplicat direct, fără să fie nevoie să-i oferiți un argument suplimentar.
+
+Pe de altă parte, lambda termenii care au variabile libere sunt numiți lambda termeni deschiși și nu sunt combinatori. Aceștia trebuie să fie "închisi" (adica sa se elimine variabilele libere prin abstractizare sau aplicare), pentru a deveni combinatori.
+
+-------------
+
