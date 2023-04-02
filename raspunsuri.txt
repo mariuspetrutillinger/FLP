@@ -1,0 +1,47 @@
+Care ar fi cea mai apropiata scriere in lambda calcul pentru A, unde f(x) = x² + 1 si A = f(2)?
+A = 5
+
+------------
+
+Care din conceptele de mai jos nu este un model de calculabilitate?
+
+masinile Turing
+
+punctele fixe
+
+functiile recursive
+
+lambda calcul
+
+
+Punctele fixe nu sunt un model de calculabilitate în sine, ci mai degrabă un concept matematic utilizat în diverse modele de calculabilitate, cum ar fi lambda calcul, funcțiile recursive sau mașinile Turing. Un punct fix pentru o funcție f este o valoare x astfel încât f(x) = x. Punctele fixe sunt importante în teoria calculabilității deoarece ele pot fi utilizate pentru a defini funcții recursive și pot fi folosite pentru a demonstra existența sau inexistența unor soluții în diverse probleme de computabilitate.
+
+În schimb, mașinile Turing, funcțiile recursive și lambda calcul sunt modele de calculabilitate. Mașinile Turing și funcțiile recursive sunt modele teoretice ale unui calculator, în timp ce lambda calcul este un alt model matematic pentru calculabilitate, bazat pe ideea de funcții lambda. Toate aceste modele de calculabilitate sunt echivalente, adică toate acestea pot rezolva aceleași probleme de calculabilitate.
+
+-------------
+
+In lambda calcul fara tipuri:
+
+a) trebuie sa specificam mereu tipul oricarei expresii
+
+b) sunt eliminate expresiile de forma f(f)
+
+c) nu specificam domeniul/codomeniul functiilor
+
+d) putem avea efecte laterale 
+
+
+c) Nu specificăm domeniul/codomeniul funcțiilor.
+
+În lambda calcul fără tipuri, nu este necesar să specificăm domeniul/codomeniul funcțiilor, deoarece acesta se concentrează mai mult pe comportamentul funcțiilor decât pe semantica tipurilor. Acest model se bazează pe ideea de funcții lambda universale, care pot accepta orice tip de argument și întoarce orice tip de rezultat.
+
+Răspunsurile pentru celelalte opțiuni sunt:
+
+a) Nu trebuie să specificăm mereu tipul oricărei expresii în lambda calcul fără tipuri.
+
+b) Expresiile de forma f(f) sunt permise în lambda calcul fără tipuri.
+
+d) Putem avea efecte laterale în lambda calcul fără tipuri.
+
+-------------
+
